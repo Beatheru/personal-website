@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <div>
       <FloatingNav navItems={navigation} />
-      <nav className="absolute top-10 flex w-full items-center justify-between">
+      <nav className="absolute top-10 z-10 flex w-full items-center justify-between">
         <a
           href="#hero"
           className="absolute left-5 text-2xl font-medium hover:text-yellow-400"
