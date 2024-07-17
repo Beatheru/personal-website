@@ -9,7 +9,10 @@ const Section = ({ children, className, id }: Props) => {
   return (
     <div
       id={id}
-      className={cn("flex w-full items-center justify-center", className)}
+      className={cn(
+        "flex w-full flex-col items-center justify-center gap-5",
+        className
+      )}
     >
       {children}
     </div>
