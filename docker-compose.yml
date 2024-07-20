@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: personal-website
+    restart: always
+    ports:
+      - 3000:3000
