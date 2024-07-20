@@ -129,8 +129,7 @@ const socials = [
 
 const About = () => {
   return (
-    <Section id="about" className="px-[25%]">
-      <div className="text-5xl font-extrabold text-yellow-400">About</div>
+    <Section id="about" className="px-[25%]" title="About">
       <div className="flex flex-col gap-5">
         <div>
           Hey, my name is Andrew and I love programming. I am a fullstack
