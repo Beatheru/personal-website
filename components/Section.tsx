@@ -11,7 +11,7 @@ const Section = ({ children, className, id, title }: Props) => {
     <div
       id={id}
       className={cn(
-        "flex w-full flex-col items-center justify-center gap-5",
+        "flex w-full flex-col items-center justify-center gap-5 px-[10%] py-5 2xl:px-[25%]",
         className
       )}
     >

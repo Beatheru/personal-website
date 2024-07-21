@@ -52,7 +52,7 @@ export const FloatingNav = ({
         transition={{
           duration: 0.2
         }}
-        className="fixed inset-x-0 top-10 z-[5000] mx-auto flex max-w-fit items-center justify-center gap-7 rounded-full border-2 border-white bg-black px-4 py-2 hover:border-yellow-400"
+        className="fixed inset-x-0 top-10 z-[5000] mx-auto flex max-w-fit items-center justify-center gap-2 rounded-full border-2 border-white bg-black px-2 py-2 hover:border-yellow-400 md:gap-7 md:px-4"
       >
         {navItems.map((navItem: any, index: number) => (
           <Link
@@ -60,8 +60,10 @@ export const FloatingNav = ({
             href={navItem.link}
             className="relative flex items-center font-medium text-white hover:text-yellow-400"
           >
-            <span className="mr-1 hover:text-yellow-400">{index}.</span>
-            <span>{navItem.name}</span>
+            <h1 className="md:text-base">
+              <span className="mr-1 hover:text-yellow-400">{index}.</span>
+              <span>{navItem.name}</span>
+            </h1>
           </Link>
         ))}
       </motion.div>

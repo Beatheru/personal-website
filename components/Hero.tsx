@@ -25,9 +25,9 @@ const words = [
 
 const Hero = () => {
   return (
-    <Section id="hero" className="z-0">
+    <Section id="hero" className="z-0 p-0">
       <LampContainer>
-        <motion.h1
+        <motion.div
           initial={{ opacity: 0.5, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -37,17 +37,10 @@ const Hero = () => {
           }}
           className="py-4 text-center font-medium text-white"
         >
-          <div className="text-base sm:text-lg md:text-xl lg:text-2xl">
-            Hi, I&apos;m
-          </div>
-          <div className="text-4xl font-bold text-yellow-400 sm:text-5xl md:text-6xl lg:text-7xl">
-            Andrew Chen
-          </div>
-          <TypewriterEffectSmooth
-            words={words}
-            className="text-normal sm:text-lg md:text-xl lg:text-2xl"
-          />
-        </motion.h1>
+          <h1>Hi, I&apos;m</h1>
+          <h6 className="font-bold text-yellow-400">Andrew Chen</h6>
+          <TypewriterEffectSmooth words={words} />
+        </motion.div>
       </LampContainer>
     </Section>
   );

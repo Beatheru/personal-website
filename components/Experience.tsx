@@ -25,7 +25,7 @@ const jobs = [
 
 const Experience = () => {
   return (
-    <Section id="experience" title="Experience" className="px-[25%]">
+    <Section id="experience" title="Experience">
       <div className="w-full">
         {jobs.map((job, index) => (
           <Accordion
@@ -37,12 +37,12 @@ const Experience = () => {
           >
             <AccordionItem value={job.company}>
               <AccordionTrigger>
-                <div className="flex w-full justify-between px-5 text-xl text-yellow-400">
+                <h1 className="flex w-full justify-between text-yellow-400 lg:px-5">
                   <div>
                     {job.title} @ {job.company}
                   </div>
                   <div>{job.date}</div>
-                </div>
+                </h1>
               </AccordionTrigger>
               <AccordionContent className="px-5">
                 <div className="mb-3">{job.description}</div>

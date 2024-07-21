@@ -129,7 +129,7 @@ const socials = [
 
 const About = () => {
   return (
-    <Section id="about" className="px-[25%]" title="About">
+    <Section id="about" title="About">
       <div className="flex flex-col gap-5">
         <div>
           Hey, my name is Andrew and I love programming. I am a fullstack
@@ -170,7 +170,7 @@ const About = () => {
         ))}
       </div>
 
-      <div className="my-10 flex w-1/2 justify-evenly">
+      <div className="my-10 flex w-full justify-evenly lg:w-1/2">
         {socials.map(({ name, icon, link }) => (
           <a key={name} href={link} target="_blank" rel="noopener noreferrer">
             <div className="hover:text-yellow-400">{icon}</div>

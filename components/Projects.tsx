@@ -35,7 +35,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <Section id="projects" title="Projects" className="px-[25%] py-10">
+    <Section id="projects" title="Projects">
       <div className="flex flex-col gap-5">
         {projects.map((project, index) => (
           <motion.div
