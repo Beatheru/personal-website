@@ -1,7 +1,7 @@
 "use client";
 
-import { Drawer, DrawerClose, DrawerContent } from "@/components/ui/drawer";
-import { Menu, X } from "lucide-react";
+import { Sheet, SheetContent } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -21,13 +21,9 @@ const HamburgerNav = ({ className, navItems }: Props) => {
         className="hover:cursor-pointer hover:text-yellow-400"
         onClick={() => setOpen(true)}
       />
-      <Drawer direction="right" open={open} onOpenChange={setOpen}>
-        <DrawerContent className="ml-[40%] flex h-full flex-col bg-stone-900">
-          <DrawerClose className="mt-10">
-            <X
-              size={30}
-              className="absolute right-5 top-5 rounded-full hover:text-yellow-400"
-            />
+      <Sheet open={open} onOpenChange={setOpen}>
+        <SheetContent>
+          <nav className="mt-10">
             {navItems.map((item, index) => (
               <Link
                 key={index}
@@ -39,9 +35,9 @@ const HamburgerNav = ({ className, navItems }: Props) => {
                 <span>{item.name}</span>
               </Link>
             ))}
-          </DrawerClose>
-        </DrawerContent>
-      </Drawer>
+          </nav>
+        </SheetContent>
+      </Sheet>
     </div>
   );
 };
