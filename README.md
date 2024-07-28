@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Personal website
 
-## Getting Started
+This is my personal website built by me to introduce myself and display some of my skills and projects.
 
-First, run the development server:
+It is hosted myself on [http://beath.dev](http://beath.dev)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Alternatively, it is also hosted on Vercel at [http://beath.vercel.app](http://beath.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tools
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+These are the tools/libraries I used to create the website:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js](https://nextjs.org) - A fullstack server side rendered version of React
+- [TailwindCSS](https://tailwindcss.com) - A utility-first CSS library that provides classes for common CSS
+- [Shadcn](https://ui.shadcn.com) - An open-sourced and fully accessible component library built using RadixUI (headless accessible components) and TailwindCSS
+- [Aceternity](https://ui.aceternity.com) - An open-sourced animated component library that uses Framer motion
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+What makes Shadcn and Aceternity unique is that they are not like typical component libraries where you install it as a dependency and then import and use the components.
+They are more like tools where you install the packages they rely on and then directly copy their code into your codebase.
+This makes it so that you own the code and can easily make modifications to it.
