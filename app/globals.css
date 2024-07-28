@@ -42,12 +42,12 @@
     @apply border-border;
   }
   body {
-    @apply bg-background bg-slate-950 text-foreground;
+    @apply bg-slate-950 text-foreground;
   }
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
