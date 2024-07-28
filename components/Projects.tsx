@@ -20,7 +20,7 @@ const projects = [
     name: "Discord Music Bot (In Progress)",
     image: placeholderImage,
     description:
-      "This is another project that I started off of a need between myself and friends. This was during the period where most of the popular and big music bots on Discord were being shutdown due to Discord policy changes. So I thought it would be a fun project to create a litle bot to use personally. I've rewritten the bot multiple times based on different streaming libraries and I'm still in the process of rewriting it. It's mostly functional with what you would typically expect from a Discord music bot. I am planning on building a web ui dashboard for it as well to control the bot outside of discord.",
+      "This is another project that I started for myself and friends. Many of the most popular music bots on Discord were being shutdown due to Discord policy changes so I thought it would be a fun project to create a litle bot to use personally. I've rewritten the bot multiple times based on different streaming libraries and I'm still in the process of rewriting it. It's mostly functional with what you would typically expect from a Discord music bot. I am planning on building a web ui dashboard for it as well to control the bot outside of discord.",
     link: "",
     github: "https://github.com/Beatheru/discord-music-bot"
   },

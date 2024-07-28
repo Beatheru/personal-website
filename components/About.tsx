@@ -132,24 +132,19 @@ const About = () => {
     <Section id="about" title="About">
       <div className="flex flex-col gap-5">
         <div>
-          Hey, my name is Andrew and I love programming. I am a fullstack
-          engineer with a strong focus on frontend web applications currently
-          but I still have backend experience. I also have slight experiences in
-          DevOps through Docker and cloud/personal servers as I deploy and host
-          some of my fullstack applications.
+          Hey, my name is Andrew and I love programming. I am a Fullstack
+          engineer with a strong focus on frontend web applications (at least
+          for now). I also have slight experiences in DevOps as I manage my own
+          homelab server and deploy and host some of my applications with
+          Docker.
         </div>
         <div>
-          What I may lack in skills or experience, I make up for it with my
-          adaptability and eagerness to learn. I am passionate about learning
-          and always try to be the best developer I can by following best
-          practices. I try keep up with new technologies and frameworks because
-          I find them cool but also to diversity my knowledge so I can have more
-          well-rounded opinions and pick the best tool for the job.
-        </div>
-        <div>
-          If someone told me that all jobs got paid equally and that I could
-          work anything I want for the same amount of money, I would still pick
-          software engineering :)
+          I am a passionate and open-minded learner who is always trying to
+          learn new skills and technologies. I believe that this helps me become
+          more open-minded in order to write quality software as well as broaden
+          my knowledge to be able to choose different tools for different
+          situations. This is why I enjoy Fullstack and DevOps: it allows me to
+          understand the full software lifecycle from the beginning to the end.
         </div>
       </div>
 

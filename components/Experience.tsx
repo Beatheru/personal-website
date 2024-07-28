@@ -16,8 +16,8 @@ const jobs = [
     actions: [
       "Develop and maintian multiple frontend applications that are a part of the electronic health record software suite.",
       "Produce quality and well documented code in Angular and Typescript.",
-      "Pushed for code quality and developer experience improvements by bringing awareness to upper management and team members.",
-      "Addressed over 40% of technical debt by upgrading frameworks and refactoring old code.",
+      "Push for code quality and developer experience improvements by bringing awareness to upper management and team members.",
+      "Address over 40% of technical debt by upgrading frameworks and refactoring old code.",
       "Collaborate with other team members and QA to fix defects and push quality code."
     ]
   }
