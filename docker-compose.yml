@@ -1,6 +1,6 @@
 services:
   app:
-    build: .
+    image: ghcr.io/beatheru/personal-website:main
     container_name: personal-website
     restart: always
     ports:
